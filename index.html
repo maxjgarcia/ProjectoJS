@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entrega</title>
 </head>
+
 <body>
+    <h1>Pre Entrega 2</h1>
+    <h2>Suma productos a tu lista de compras</h2>
+
+    <form>
+        <label for="productName">Producto:</label>
+        <input type="text" id="productName" name="productName"> <br><br>
+
+        <label for="productPrice">Precio:</label>
+        <input type="text" id="productPrice" name="productPrice"> <br><br>
+
+        <button type="submit" id="submitBtn">Agregar a carrito</button>
+    </form>
+
+    <div>
+        <h2>Lista de productos agregados</h2>
+        <ul id="productList">
+
+        </ul>
+    </div>
     <script src="./entrega.js"></script>
+    <!-- <script src="/ProjectoJS/entrega.js"></script> -->
 </body>
+
 </html>
